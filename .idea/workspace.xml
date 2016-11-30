@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5aa09d38-efeb-47b8-9ee9-3110984b5ea6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/BinaryTree.java" afterPath="$PROJECT_DIR$/src/main/java/BinaryTree.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,11 +35,11 @@
       <file leaf-file-name="BinaryTree.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="59" column="48" lean-forward="false" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+            <state relative-caret-position="436">
+              <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
               <folding>
-                <element signature="e#1714#1715#0" expanded="true" />
-                <element signature="e#1761#1762#0" expanded="true" />
+                <element signature="e#2897#2898#0" expanded="true" />
+                <element signature="e#2946#2947#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -477,11 +475,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/BinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="59" column="48" lean-forward="false" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
+        <state relative-caret-position="436">
+          <caret line="108" column="0" lean-forward="true" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding>
-            <element signature="e#1714#1715#0" expanded="true" />
-            <element signature="e#1761#1762#0" expanded="true" />
+            <element signature="e#2897#2898#0" expanded="true" />
+            <element signature="e#2946#2947#0" expanded="true" />
           </folding>
         </state>
       </provider>
