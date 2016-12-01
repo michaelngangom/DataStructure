@@ -38,6 +38,55 @@ public class BinaryTree {
 
 
     }
+//remove node - way too complex at the moment and not complete...will try a different approach
+    public boolean remove(int key)
+    {
+        Node focusNode=root;
+        Node parent=root;
+
+        boolean isItLeftChild = true;
+
+        while(focusNode.key !=key)
+        {
+            parent = focusNode;
+            if(key < focusNode.key)
+            {
+                isItLeftChild= true;
+                focusNode = focusNode.leftChild;
+            }else {
+                isItLeftChild = false;
+                focusNode = focusNode.rightChild;
+            }
+            if(focusNode == null)
+                return false;
+
+        }
+        if(focusNode.leftChild ==null && focusNode.rightChild==null)
+        {
+            if(focusNode==root){
+                root = null;
+            }else if(isItLeftChild){
+                parent.leftChild=null;
+            }else{
+                parent.rightChild=null;
+            }
+        }
+        else if(focusNode.rightChild==null)
+        {
+            if(focusNode==root)
+            {
+                root=focusNode.leftChild;
+            }else if(isItLeftChild)
+                parent.leftChild =focusNode.leftChild;
+            else parent.rightChild=focusNode.leftChild;
+        }
+        else if(focusNode.leftChild==null)
+        {
+            if (focusNode==root)
+                root=focusNode.rightChild;
+        }
+        return true;
+    }
     //In order traversal - aim for simplest value first => null move up
 
     public void inOrderTraversalRecursive(Node focusNode)
