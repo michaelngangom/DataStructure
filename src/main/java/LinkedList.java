@@ -8,13 +8,13 @@ public static LinkedListImplementation list;
 
     public static void main(String[] args)
     {
-    list = new LinkedListImplementation();
-    list.add("1");
-    list.add("2");
-    list.add("3");
-    list.add("4");
+        list = new LinkedListImplementation();
+        list.add("1");
+        list.add("2");
+        list.add("3");
+        list.add("4");
 
-    System.out.println(list);
+    System.out.println(list.toString());
     }
 
 
@@ -83,6 +83,18 @@ class LinkedListImplementation{
 
 
     }
+    public String toString() {
+        String output = "";
+
+        if (head != null) {
+            Node currentNode = head.getNext();
+            while (currentNode != null) {
+                output += "[" + currentNode.getData().toString() + "]";
+                currentNode = currentNode.getNext();
+            }
+
+        }
+        return output;}
     private class Node{
         Node next;
         Object data;
