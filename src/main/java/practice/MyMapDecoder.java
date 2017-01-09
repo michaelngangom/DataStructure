@@ -20,7 +20,7 @@ public class MyMapDecoder {
     After that iterate through the string array to decode the value
     for example: "one" , "1" and put it in map as key and value.
     */
-    //test
+    //testf
 
     public Map<String, String> decode(String s){
         if (s == null) {
